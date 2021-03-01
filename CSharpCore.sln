@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCore", "CSharpCore\CSharpCore.csproj", "{9E12D33A-8B78-4A4B-8A3B-72EA92C94BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCore", "CSharpCore\CSharpCore.csproj", "{9E12D33A-8B78-4A4B-8A3B-72EA92C94BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{AC147853-31E8-4C75-8E32-7FF1CECB498C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{AC147853-31E8-4C75-8E32-7FF1CECB498C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasssIntro", "ClasssIntro\ClasssIntro.csproj", "{48FF0B9F-2D81-4E38-B213-9286C3CBFB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasssIntro", "ClasssIntro\ClasssIntro.csproj", "{48FF0B9F-2D81-4E38-B213-9286C3CBFB6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{5C228982-7611-4660-9111-89BF66FE90DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{5C228982-7611-4660-9111-89BF66FE90DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{7E951302-A9F5-4C97-AD68-EA8DF36EA459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{7E951302-A9F5-4C97-AD68-EA8DF36EA459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{FE844F46-E09F-47BC-8FB5-BFDDB8F04575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{FE844F46-E09F-47BC-8FB5-BFDDB8F04575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{06B93373-6192-4133-8740-FE6862126E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{473F2BFF-B4FC-4442-8E24-55712991C6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{D75917BE-2478-49B8-B5BA-1F2A51FD8EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{FE844F46-E09F-47BC-8FB5-BFDDB8F04575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE844F46-E09F-47BC-8FB5-BFDDB8F04575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE844F46-E09F-47BC-8FB5-BFDDB8F04575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B93373-6192-4133-8740-FE6862126E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B93373-6192-4133-8740-FE6862126E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B93373-6192-4133-8740-FE6862126E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B93373-6192-4133-8740-FE6862126E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473F2BFF-B4FC-4442-8E24-55712991C6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473F2BFF-B4FC-4442-8E24-55712991C6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473F2BFF-B4FC-4442-8E24-55712991C6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473F2BFF-B4FC-4442-8E24-55712991C6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75917BE-2478-49B8-B5BA-1F2A51FD8EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75917BE-2478-49B8-B5BA-1F2A51FD8EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75917BE-2478-49B8-B5BA-1F2A51FD8EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75917BE-2478-49B8-B5BA-1F2A51FD8EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,7 +20,6 @@ namespace Metotlar
             urun2.StokAdedi = 15;
 
 
-
             Urun[] urunler = new Urun[] {urun1, urun2 };
 
             foreach(Urun item in urunler)
